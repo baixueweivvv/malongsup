@@ -67,3 +67,120 @@ html {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(111, 78, 55, 0.1);
 }
+
+/* 蛋糕容器 */
+.cake-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+}
+
+/* 蛋糕主体 */
+.cake {
+    position: relative;
+    width: 200px;
+    height: 160px;
+    background: #FFE4B5; /* 奶油色蛋糕底部 */
+}
+
+/* 蛋糕顶部粉色奶油 */
+.frosting {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #FFB7C5; /* 粉色奶油 */
+    border-radius: 10px 10px 0 0;
+}
+
+/* 奶油滴落效果 */
+.drip {
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    height: 20px;
+    background: #FFB7C5;
+    clip-path: url(#drip-path);
+}
+
+/* 彩色糖针 */
+.sprinkles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.sprinkle {
+    position: absolute;
+    width: 6px;
+    height: 2px;
+    background: #87CEEB; /* 浅蓝色 */
+    transform: rotate(45deg);
+}
+
+/* 蜡烛 */
+.candles {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+.candle {
+    width: 15px;
+    height: 60px;
+    position: relative;
+}
+
+/* 第一根蜡烛 */
+.candle:nth-child(1) {
+    background: linear-gradient(45deg, #FF69B4, #87CEEB);
+}
+
+/* 第二根蜡烛 */
+.candle:nth-child(2) {
+    background: linear-gradient(45deg, #FFFF00, #98FB98);
+}
+
+/* 第三根蜡烛 */
+.candle:nth-child(3) {
+    background: linear-gradient(45deg, #98FB98, #DDA0DD);
+}
+
+/* 火焰 */
+.flame {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 25px;
+    background: #FFD700;
+    border-radius: 50% 50% 20% 20%;
+    animation: flicker 1s infinite;
+}
+
+/* 闪烁星星 */
+.stars {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #FFD700;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.star1 { top: -30px; right: 20px; }
+.star2 { bottom: 30px; left: 20px; }
+
+@keyframes flicker {
+    0%, 100% { transform: translateX(-50%) scale(1); opacity: 1; }
+    50% { transform: translateX(-50%) scale(1.1); opacity: 0.8; }
+}

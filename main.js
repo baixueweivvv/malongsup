@@ -10,7 +10,7 @@ const pages = {
                     <div class="swiper-slide">
                         <div class="relative group">
                             <img src="public/moment/1.jpg" alt="照片1"
-                                 class="w-full h-[800px] object-cover rounded-2xl">
+                                 class="w-full h-[600px] object-cover rounded-2xl">
                             <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent text-white rounded-b-2xl
                                         opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <h3 class="text-xl font-semibold mb-2">第1张照片</h3>
@@ -22,7 +22,7 @@ const pages = {
                     <div class="swiper-slide">
                         <div class="relative group">
                             <img src="public/moment/2.jpg" alt="照片2"
-                                 class="w-full h-[800px] object-cover rounded-2xl">
+                                 class="w-full h-[600px] object-cover rounded-2xl">
                             <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent text-white rounded-b-2xl
                                         opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <h3 class="text-xl font-semibold mb-2">第2张照片</h3>
@@ -34,7 +34,7 @@ const pages = {
                     <div class="swiper-slide">
                         <div class="relative group">
                             <img src="public/moment/3.jpg" alt="照片3"
-                                 class="w-full h-[800px] object-cover rounded-2xl">
+                                 class="w-full h-[600px] object-cover rounded-2xl">
                             <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent text-white rounded-b-2xl
                                         opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <h3 class="text-xl font-semibold mb-2">第3张照片</h3>
@@ -46,7 +46,7 @@ const pages = {
                     <div class="swiper-slide">
                         <div class="relative group">
                             <img src="public/moment/4.jpg" alt="照片4"
-                                 class="w-full h-[800px] object-cover rounded-2xl">
+                                 class="w-full h-[600px] object-cover rounded-2xl">
                             <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent text-white rounded-b-2xl
                                         opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <h3 class="text-xl font-semibold mb-2">第4张照片</h3>
@@ -58,7 +58,7 @@ const pages = {
                     <div class="swiper-slide">
                         <div class="relative group">
                             <img src="public/moment/5.jpg" alt="照片5"
-                                 class="w-full h-[800px] object-cover rounded-2xl">
+                                 class="w-full h-[600px] object-cover rounded-2xl">
                             <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent text-white rounded-b-2xl
                                         opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <h3 class="text-xl font-semibold mb-2">第5张照片</h3>
@@ -70,7 +70,7 @@ const pages = {
                     <div class="swiper-slide">
                         <div class="relative group">
                             <img src="public/moment/6.jpg" alt="照片6"
-                                 class="w-full h-[800px] object-cover rounded-2xl">
+                                 class="w-full h-[600px] object-cover rounded-2xl">
                             <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent text-white rounded-b-2xl
                                         opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <h3 class="text-xl font-semibold mb-2">第6张照片</h3>
@@ -82,7 +82,7 @@ const pages = {
                     <div class="swiper-slide">
                         <div class="relative group">
                             <img src="public/moment/7.jpg" alt="照片7"
-                                 class="w-full h-[800px] object-cover rounded-2xl">
+                                 class="w-full h-[600px] object-cover rounded-2xl">
                             <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent text-white rounded-b-2xl
                                         opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <h3 class="text-xl font-semibold mb-2">第7张照片</h3>
@@ -94,7 +94,7 @@ const pages = {
                     <div class="swiper-slide">
                         <div class="relative group">
                             <img src="public/moment/8.jpg" alt="照片8"
-                                 class="w-full h-[800px] object-cover rounded-2xl">
+                                 class="w-full h-[600px] object-cover rounded-2xl">
                             <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent text-white rounded-b-2xl
                                         opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <h3 class="text-xl font-semibold mb-2">第8张照片</h3>
@@ -194,7 +194,7 @@ blessing: `
                             <p class="text-coffee leading-relaxed">
                                 祝福文字5...
                             </p>
-                            <p class="text-right mt-4 text-coffee-light italic">- 妹妹</p>
+                            <p class="text-right mt-4 text-coffee-light italic">- 小马</p>
                         </div>
                     </div>
                 </div>
@@ -263,7 +263,7 @@ blessing: `
                                 <img src="public/milestone/2018.jpg" alt="2018年照片" 
                                      class="w-full h-48 object-cover rounded-lg mb-4">
                                 <h3 class="text-xl font-bold text-coffee-dark mb-2">2018年的我们-成长</h3>
-                                <p class="text-coffee/80">我一个人来北京实习了，这座钢铁森林异常冰冷，而你在国庆节突然来找我给我惊喜，那种开心现在都难以忘记.</p>
+                                <p class="text-coffee/80">我一个人来北京实习了，这座钢铁森林异常冰冷。但是想起你在国庆节突然来找我给我惊喜，那种开心现在都难以忘记.</p>
                             </div>
                         </div>
                     </div>
@@ -381,101 +381,103 @@ blessing: `
     </section>
 `,
 
-    record: `
-        <section id="record" class="section py-24">
-            <div class="max-w-4xl mx-auto fade-in">
-                <h2 class="text-4xl font-bold mb-4 text-center text-coffee-dark">记录</h2>
-                <p class="text-center text-coffee/60 mb-12">希望在未来的某些时刻，点开这个网站，你可以深呼吸的休息一下</p>
-                
-                <!-- 留言输入区域 -->
-                <div class="bg-white/80 backdrop-blur-md p-8 rounded-2xl shadow-lg mb-12 border border-coffee/5">
-                    <form id="messageForm" class="space-y-6">
-                        <div>
-                            <label for="name" class="block text-coffee-dark mb-2">你的名字</label>
-                            <input type="text" id="name" name="name" 
-                                   class="w-full px-4 py-2 rounded-lg border border-coffee/20 focus:border-coffee focus:ring-2 focus:ring-coffee/20 outline-none transition-all"
-                                   placeholder="请输入你的名字（选填）">
-                        </div>
-                        <div>
-                            <label for="message" class="block text-coffee-dark mb-2">你的留言</label>
-                            <textarea id="message" name="message" rows="4" 
-                                      class="w-full px-4 py-2 rounded-lg border border-coffee/20 focus:border-coffee focus:ring-2 focus:ring-coffee/20 outline-none transition-all"
-                                      placeholder="写下你想说的话..."></textarea>
-                        </div>
-                        <button type="submit" 
-                                class="w-full bg-coffee text-cream-light py-3 rounded-lg hover:bg-coffee-dark transition-colors">
-                            发送留言
-                        </button>
-                    </form>
-                </div>
-
-                <!-- 词云展示区域 -->
-                <div class="bg-white/80 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-coffee/5">
-                    <h3 class="text-xl font-bold text-coffee-dark mb-6 text-center">留言词云</h3>
-                    <div id="wordCloud" class="w-full h-[400px]"></div>
-                </div>
+record: `
+    <section id="record" class="section py-24">
+        <div class="max-w-4xl mx-auto fade-in">
+            <h2 class="text-4xl font-bold mb-4 text-center text-coffee-dark">记录</h2>
+            <p class="text-center text-coffee/60 mb-12">希望在未来的某些时刻，点开这个网站，你可以深呼吸的休息一下</p>
+            
+            <!-- 留言输入区域 -->
+            <div class="bg-white/80 backdrop-blur-md p-8 rounded-2xl shadow-lg mb-12 border border-coffee/5">
+                <form id="messageForm" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-coffee-dark mb-2">你的名字</label>
+                        <input type="text" id="name" name="name" 
+                               class="w-full px-4 py-2 rounded-lg border border-coffee/20 focus:border-coffee focus:ring-2 focus:ring-coffee/20 outline-none transition-all"
+                               placeholder="请输入你的名字（选填）">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-coffee-dark mb-2">你的留言</label>
+                        <textarea id="message" name="message" rows="4" 
+                                  class="w-full px-4 py-2 rounded-lg border border-coffee/20 focus:border-coffee focus:ring-2 focus:ring-coffee/20 outline-none transition-all"
+                                  placeholder="写下你想说的话..."></textarea>
+                    </div>
+                    <button type="submit" 
+                            class="w-full bg-coffee text-cream-light py-3 rounded-lg hover:bg-coffee-dark transition-colors">
+                        发送留言
+                    </button>
+                </form>
             </div>
-        </section>
-    `
+
+            <!-- 生日蛋糕和祝福语 -->
+            <div class="mt-16">
+                <div class="cake-container">
+                    <div class="cake">
+                        <div class="frosting"></div>
+                        <div class="sprinkles">
+                            ${Array(20).fill().map((_, i) => `
+                                <div class="sprinkle" style="
+                                    top: ${Math.random() * 100}%;
+                                    left: ${Math.random() * 100}%;
+                                    background: ${['#87CEEB', '#FFB7C5', '#98FB98', '#DDA0DD'][Math.floor(Math.random() * 4)]};
+                                    transform: rotate(${Math.random() * 360}deg);
+                                "></div>
+                            `).join('')}
+                        </div>
+                        <div class="candles">
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+                        </div>
+                        <div class="star1 stars"></div>
+                        <div class="star2 stars"></div>
+                    </div>
+                </div>
+                
+                <!-- 生日祝福 -->
+                <p class="mt-8 text-4xl font-bold text-center" 
+                   style="font-family: 'AlibabaPuHuiTi-Bold', sans-serif; 
+                          color: #FFB7C5;
+                          letter-spacing: 2px;">
+                    祝全世界最好的马龙生日快乐～
+                </p>
+            </div>
+        </div>
+    </section>
+`
 };
 
-// 初始化词云
-function initWordCloud() {
-    // 示例数据，实际使用时应该从后端获取
-    const words = [
-        { text: "美好", value: 30 },
-        { text: "回忆", value: 28 },
-        { text: "感动", value: 25 },
-        { text: "温暖", value: 22 },
-        { text: "幸福", value: 20 },
-        { text: "快乐", value: 18 },
-        { text: "希望", value: 16 },
-        { text: "梦想", value: 15 },
-        { text: "未来", value: 14 },
-        { text: "生活", value: 13 },
-        { text: "阳光", value: 12 },
-        { text: "微笑", value: 11 },
-        { text: "勇气", value: 10 },
-        { text: "力量", value: 9 },
-        { text: "感恩", value: 8 }
-    ];
-
-    const width = document.getElementById('wordCloud').offsetWidth;
-    const height = 400;
-
-    // 创建词云布局
-    const layout = d3.layout.cloud()
-        .size([width, height])
-        .words(words)
-        .padding(5)
-        .rotate(() => ~~(Math.random() * 2) * 90)
-        .font("Impact")
-        .fontSize(d => d.value * 2)
-        .on("end", draw);
-
-    layout.start();
-
     function draw(words) {
-        d3.select("#wordCloud").select("svg").remove(); // 清除旧的词云
+        d3.select("#wordCloud").select("svg").remove();
+        
+        const svg = d3.select("#wordCloud").append("svg")
+            .attr("width", layout.size()[0])
+            .attr("height", layout.size()[1]);
 
-        const svg = d3.select("#wordCloud")
-            .append("svg")
-            .attr("width", width)
-            .attr("height", height)
-            .append("g")
-            .attr("transform", `translate(${width/2},${height/2})`);
+        const cloud = svg.append("g")
+            .attr("transform", `translate(${layout.size()[0] / 2},${layout.size()[1] / 2})`);
 
-        svg.selectAll("text")
+        cloud.selectAll("text")
             .data(words)
-            .enter().append("text")
-            .style("font-size", d => `${d.size}px`)
-            .style("font-family", "Impact")
-            .style("fill", () => `hsl(${~~(Math.random() * 360)}, 70%, 50%)`)
+            .enter()
+            .append("text")
+            .style("font-family", fontFamily)
+            .style("fill", () => d3.rgb(
+                Math.random() * 100 + 155,
+                Math.random() * 100 + 155,
+                Math.random() * 100 + 155
+            ))
             .attr("text-anchor", "middle")
+            .style("font-size", d => `${d.size}px`)
             .attr("transform", d => `translate(${d.x},${d.y})rotate(${d.rotate})`)
             .text(d => d.text);
     }
-}
 
 // 处理留言表单提交
 function handleMessageSubmit(e) {
