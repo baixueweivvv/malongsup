@@ -166,7 +166,11 @@ blessing: `
                         <div class="text-4xl text-coffee-light font-serif">"</div>
                         <div>
                             <p class="text-coffee leading-relaxed">
-                                祝福文字3...
+                                吾友马龙，见字如面。
+首先!!! 祝你生日快乐！在新的一岁里，我希望你可以继续勇敢做自己，继续探寻世界，继续热烈生活；我希望你活得顺遂又幸福，过的认真又洒脱。
+其次!!! 我们也认识了15年，在即将到来的第16年以及以后的每一年，作为朋友都希望你能跟所有的烦恼说拜拜，跟所有的快乐说嗨嗨！有幸能在你熠熠生辉的日子里分享点点滴滴，一句话，一杯酒。
+最后!!! 从这一年开始你也多了一重身份，希望你要加倍的爱护你的小家庭，呵护白总，照顾好小马龙和小白雪薇！
+最后的最后!!! 祝马龙生日快乐，幸福美满，所愿皆所得！
                             </p>
                             <p class="text-right mt-4 text-coffee-light italic">- 孙飞宇</p>
                         </div>
@@ -179,7 +183,7 @@ blessing: `
                         <div class="text-4xl text-coffee-light font-serif">"</div>
                         <div>
                             <p class="text-coffee leading-relaxed">
-                                祝福文字4...
+                                儿子今天是你的生日，今天老妈没什么送你的，祝你工作顺利，事业有成，前方有路，未来可期，人生路上要有担当，有责任，懂感恩，儿子生日快乐，一生健康，平安喜乐。
                             </p>
                             <p class="text-right mt-4 text-coffee-light italic">- 妈妈</p>
                         </div>
