@@ -196,7 +196,7 @@ blessing: `
                         <div class="text-4xl text-coffee-light font-serif">"</div>
                         <div>
                             <p class="text-coffee leading-relaxed">
-                                祝福文字5...
+                                祝智慧与帅气随岁月一并增长的哥哥生日快乐!寿星今日称王,愿望都能成真!!生日快乐生日快乐生日快乐生日快乐生日快乐生日快乐生日快乐生日快乐生日快乐！
                             </p>
                             <p class="text-right mt-4 text-coffee-light italic">- 小马</p>
                         </div>
@@ -388,34 +388,35 @@ blessing: `
 record: `
     <section id="record" class="section py-24">
         <div class="max-w-4xl mx-auto fade-in">
-            <h2 class="text-4xl font-bold mb-4 text-center text-coffee-dark">记录</h2>
-            <p class="text-center text-coffee/60 mb-12">希望在未来的某些时刻，点开这个网站，你可以深呼吸的休息一下</p>
+            <!-- 标题区域添加发光效果 -->
+            <h2 class="text-4xl font-bold mb-4 text-center text-coffee-dark animate-pulse">记录</h2>
+            <p class="text-center text-coffee/60 mb-12 backdrop-blur-sm bg-white/10 p-4 rounded-xl">希望在未来的某些时刻，点开这个网站，你可以深呼吸的休息一下</p>
             
-            <!-- 留言输入区域 -->
-            <div class="bg-white/80 backdrop-blur-md p-8 rounded-2xl shadow-lg mb-12 border border-coffee/5">
+            <!-- 留言输入区域 - 优化毛玻璃效果 -->
+            <div class="bg-white/20 backdrop-blur-xl p-8 rounded-2xl shadow-lg mb-12 border border-white/30 hover:transform hover:-translate-y-1 transition-all duration-300 hover:shadow-2xl">
                 <form id="messageForm" class="space-y-6">
                     <div>
-                        <label for="name" class="block text-coffee-dark mb-2">你的名字</label>
+                        <label for="name" class="block text-coffee-dark mb-2 font-medium">你的名字</label>
                         <input type="text" id="name" name="name" 
-                               class="w-full px-4 py-2 rounded-lg border border-coffee/20 focus:border-coffee focus:ring-2 focus:ring-coffee/20 outline-none transition-all"
+                               class="w-full px-4 py-2 rounded-lg bg-white/50 backdrop-blur-sm border border-white/20 focus:border-coffee/30 focus:ring-2 focus:ring-coffee/20 outline-none transition-all hover:bg-white/60"
                                placeholder="请输入你的名字（选填）">
                     </div>
                     <div>
-                        <label for="message" class="block text-coffee-dark mb-2">你的留言</label>
+                        <label for="message" class="block text-coffee-dark mb-2 font-medium">你的留言</label>
                         <textarea id="message" name="message" rows="4" 
-                                  class="w-full px-4 py-2 rounded-lg border border-coffee/20 focus:border-coffee focus:ring-2 focus:ring-coffee/20 outline-none transition-all"
+                                  class="w-full px-4 py-2 rounded-lg bg-white/50 backdrop-blur-sm border border-white/20 focus:border-coffee/30 focus:ring-2 focus:ring-coffee/20 outline-none transition-all hover:bg-white/60"
                                   placeholder="写下你想说的话..."></textarea>
                     </div>
                     <button type="submit" 
-                            class="w-full bg-coffee text-cream-light py-3 rounded-lg hover:bg-coffee-dark transition-colors">
+                            class="w-full bg-coffee/80 backdrop-blur-sm text-cream-light py-3 rounded-lg hover:bg-coffee-dark transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5">
                         发送留言
                     </button>
                 </form>
             </div>
 
-            <!-- 生日蛋糕和祝福语 -->
+            <!-- 生日蛋糕和祝福语 - 添加玻璃容器效果 -->
             <div class="mt-16">
-                <div class="cake-container">
+                <div class="cake-container bg-white/30 backdrop-blur-lg p-8 rounded-3xl shadow-xl border border-white/40 hover:shadow-2xl transition-all duration-300">
                     <div class="cake">
                         <div class="frosting"></div>
                         <div class="sprinkles">
@@ -444,10 +445,13 @@ record: `
                     </div>
                 </div>
                 
-                <!-- 生日祝福 -->
-                <p class="mt-8 text-4xl font-bold text-center" 
+                <!-- 生日祝福 - 添加发光文字效果 -->
+                <p class="mt-8 text-4xl font-bold text-center animate-pulse" 
                    style="font-family: 'AlibabaPuHuiTi-Bold', sans-serif; 
-                          color: #FFB7C5;
+                          background: linear-gradient(45deg, #FFB7C5, #FF69B4, #FFB7C5);
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+                          text-shadow: 0 0 20px rgba(255,183,197,0.5);
                           letter-spacing: 2px;">
                     祝全世界最好的马龙生日快乐～
                 </p>
