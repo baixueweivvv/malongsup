@@ -202,6 +202,19 @@ blessing: `
                         </div>
                     </div>
                 </div>
+
+                <!-- 祝福文字6 -->
+                <div class="bg-white/80 backdrop-blur-md p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-coffee/5">
+                    <div class="flex items-start space-x-4">
+                        <div class="text-4xl text-coffee-light font-serif">"</div>
+                        <div>
+                            <p class="text-coffee leading-relaxed">
+                                儿子，生日快乐，你是爸爸的骄傲，愿你的每一天都充满阳光和欢笑，勇敢的去追寻自己的梦想，创造一个美好的未来，做一个有责任心的男子汉，人生的路途会遇到一些坑坑凹凹，你要记住老爸是你坚强的后盾，最后祝儿子工作顺利，事业有成，夫妻恩爱，永远幸福。
+                            </p>
+                            <p class="text-right mt-4 text-coffee-light italic">- 爱你的老爸</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
