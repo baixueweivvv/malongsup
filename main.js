@@ -3,7 +3,7 @@ const pages = {
     <section id="moment" class="section py-24">
         <div class="max-w-6xl mx-auto fade-in">
             <h2 class="text-4xl font-bold mb-4 text-center text-coffee-dark">瞬间</h2>
-            <p class="text-center text-coffee/60 mb-12">希望在未来的某些时刻，点开这个网站，你可以深呼吸的休息一下</p>
+            <p class="text-center text-coffee/60 mb-12">闭上眼睛，就是快门。不断更新，值得记录的瞬间</p>
             <!-- Swiper -->
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -114,7 +114,7 @@ blessing: `
     <section id="blessing" class="section py-24">
         <div class="max-w-4xl mx-auto fade-in">
             <h2 class="text-4xl font-bold mb-4 text-center text-coffee-dark">祝福</h2>
-            <p class="text-center text-coffee/60 mb-12">希望在未来的某些时刻，点开这个网站，你可以深呼吸的休息一下</p>
+            <p class="text-center text-coffee/60 mb-12">爱是一种永不竭力的能量，这里都是你爱的以及爱你的人</p>
             
             <div class="space-y-8">
                 <!-- 祝福文字1 -->
@@ -224,7 +224,7 @@ blessing: `
     <section id="milestone" class="section py-24">
         <div class="max-w-5xl mx-auto fade-in">
             <h2 class="text-4xl font-bold mb-4 text-center text-coffee-dark">里程</h2>
-            <p class="text-center text-coffee/60 mb-12">希望在未来的某些时刻，点开这个网站，你可以深呼吸的休息一下</p>
+            <p class="text-center text-coffee/60 mb-12">至死不渝的里程，需要一座不断刻印着的纪念碑</p>
             
             <div class="relative">
                 <!-- 时间轴中心线 -->
