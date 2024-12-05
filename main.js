@@ -215,6 +215,19 @@ blessing: `
                         </div>
                     </div>
                 </div>
+
+                <!-- 祝福文字7 -->
+                <div class="bg-white/80 backdrop-blur-md p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-coffee/5">
+                    <div class="flex items-start space-x-4">
+                        <div class="text-4xl text-coffee-light font-serif">"</div>
+                        <div>
+                            <p class="text-coffee leading-relaxed">
+                                祝我的女婿生日快乐！事业蒸蒸日上！顺风顺水！步步高升！眼里有光，心里有爱！兜里有钱！幸福安康！缘份让我们成为一家人，一声爸妈，一生牵挂！快乐不止今天，而是年年岁岁！
+                            </p>
+                            <p class="text-right mt-4 text-coffee-light italic">- 岳父岳母</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
