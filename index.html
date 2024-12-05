@@ -30,6 +30,28 @@
                  url('//at.alicdn.com/t/c/font_4432210_ey7xf6vd6w.ttf?t=1706513725893') format('truetype');
         }
 
+        /* 美化轮播图导航按钮 */
+.swiper-button-prev, .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 20px;
+    color: #6F4E37; /* 使用咖啡色 */
+}
         /* 导航栏动画效果 */
         .nav-link {
             position: relative;
